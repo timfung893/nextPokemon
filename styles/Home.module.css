@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.card {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-height: 200px;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}

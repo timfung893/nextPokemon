@@ -1,0 +1,24 @@
+.layout {
+   display:flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: row;
+}
+
+.header {
+    text-align: left;
+}
+.photo {
+    max-width: 400px;
+    margin-right: 40px;
+}
+.info > table {
+    margin-top: 20px;
+}
+.name {
+    font-weight: bold;
+    font-size: 25px;
+}
+.type {
+    font-weight: normal;
+}
